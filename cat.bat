@@ -1,0 +1,1 @@
+echo cat is a bash command. Try using `type [File]`
