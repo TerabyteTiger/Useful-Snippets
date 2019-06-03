@@ -1,4 +1,4 @@
-  {
+{
   "Jinja for": {
     "prefix": "%for",
     "body": [
@@ -18,15 +18,30 @@
     ],
     "description": "Create a Jinja if/else block (Flask Template)"
   },
-  "Jinja Block": {
-    "prefix": "%%",
+  "Jinja Variable": {
+    "prefix": "%var",
     "body": "{{ ${1:element} }}",
     "description": "Create Jinja Brace Block"
   },
   "Jinja Extends": {
     "prefix": "%extends",
-    "body": "{% extends \"${1: page.html}\" %}",
+    "body": "{% extends \"${1:page.html}\" %}",
     "description": "Create Jinja Extends Block"
+  },
+  "Jinja Block": {
+    "prefix": "%block",
+    "body": [
+      "{% block ${1:content} %}",
+      "\t",
+      "{% endblock %}"
+    ],
+    "description": "Create Jinja Content Block"
+  },
+  "Jinja Liquid Tag": {
+    "prefix": "%%",
+    "body": [
+      "{% ${1:tag} %}"
+    ],
+    "description": "Create Jinja Liquid Tag Block"
   }
 }
-
