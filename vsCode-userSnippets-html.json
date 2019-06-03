@@ -1,4 +1,4 @@
-{  
+  {
   "Jinja for": {
     "prefix": "%for",
     "body": [
@@ -22,5 +22,11 @@
     "prefix": "%%",
     "body": "{{ ${1:element} }}",
     "description": "Create Jinja Brace Block"
+  },
+  "Jinja Extends": {
+    "prefix": "%extends",
+    "body": "{% extends \"${1: page.html}\" %}",
+    "description": "Create Jinja Extends Block"
   }
 }
+
