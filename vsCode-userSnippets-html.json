@@ -43,5 +43,13 @@
       "{% ${1:tag} %}"
     ],
     "description": "Create Jinja Liquid Tag Block"
+  },
+  "Jinja With": {
+    "prefix": "%with",
+    "body": [
+      "{% with ${1:ArrayName} = ${2:get_array_method()} %}",
+      "",
+      "{% endwith %}"
+    ]
   }
 }
