@@ -1,2 +1,2 @@
-# cmdCommands
-Location to store cmd aliases/batch files. Need to save somewhere in $PATH
+# Useful-Snippets
+Save space for random things that are useful. 
