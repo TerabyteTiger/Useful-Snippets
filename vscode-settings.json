@@ -3,7 +3,7 @@
 	"terminal.integrated.shell.windows": "C:\\Users\\tvanblargan\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
   "git.enableSmartCommit": true,
 	"editor.fontLigatures": true,
-	"editor.fontFamily": "Fira Code",
+	"editor.fontFamily": "Victor Mono",
 	"terminal.integrated.fontFamily": "monospace",
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
@@ -48,18 +48,15 @@
 		]
 	},
 	"prettier.tabWidth": 2,
-	"prettier.disableLanguages": ["js"],
 	"window.zoomLevel": 0,
 	"workbench.colorCustomizations": {
 		"editor.selectionBackground": "#ff1493",
 		"editor.selectionHighlightBackground": "#ff1493",
 		"editor.findMatchBackground": "#ff1493",
     "editor.findMatchHighlightBackground": "#3cb371",
-    
 	},
 	"indentRainbow.errorColor": "rgba(128,32,32,0.4)",
 	"editor.tabSize": 2,
-	"editor.detectIndentation": false,
 	"autoprefixer.grid": "autoplace",
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"eslint.alwaysShowStatus": true,
@@ -160,7 +157,6 @@
     "angular",
     "react"
   ],
-  "sync.gist": "6af1811deaec070059851975c9c9893e",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -168,6 +164,19 @@
     "cellpadding",
     "cellspacing",
     "datasets",
-    "nbsp"
-  ]
+    "endblock",
+    "farmerspride",
+    "fontawesome",
+    "fortawesome",
+    "nbsp",
+    "polyfill",
+    "techless"
+  ],
+	"[python]":{
+		"editor.tabSize": 4
+	},
+  "editor.fontSize": 18,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
