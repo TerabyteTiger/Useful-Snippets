@@ -9,10 +9,10 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 16,
+    fontSize: 18,
 
     // font family with optional fallbacks
-    fontFamily: '"Fira Code",Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: '"Victor Mono Italic","Victor Mono",Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -103,11 +103,11 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    shell: '',
-
+    shell: 'C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe',
+    
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
-    shellArgs: ['--login'],
+    shellArgs: [''],
 
     // for environment variables
     env: {},
@@ -149,13 +149,13 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-	`hyperpower`,
-	`hyper-active-tab`,
-	`hypercwd`,
-	`hyper-letters`,
-	`hyper-yes`,
-	`hypercwd`
-],
+    `hyperpower`,
+    `hyper-active-tab`,
+    `hypercwd`,
+    `hyper-letters`,
+    `hyper-yes`,
+    `hypercwd`,
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
