@@ -4,6 +4,10 @@ Import-Module PoShFuck
 Import-Module PSColor
 Set-Theme Robbyrussell
 
+# Change Color of Commands to Magenta (-b in git checkout -b)
+Set-PSReadlineOption -TokenKind Parameter -ForegroundColor Magenta
+
+# Change file colors to not be hard to read
 $global:PSColor.File.Hidden.Color = 'Green'
 
 function commit {
