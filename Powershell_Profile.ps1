@@ -18,6 +18,10 @@ function commit {
   git commit -m $args
 }
 
+function push {
+  git push
+}
+
 function clone {
   git clone $args
 }
