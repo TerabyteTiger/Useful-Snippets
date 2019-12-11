@@ -31,4 +31,9 @@ function sync {
   git push
 }
 
+function remote {
+  git pull
+  git checkout --track origin/$args
+}
+
 cd .\Desktop\
