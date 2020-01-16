@@ -36,4 +36,9 @@ function remote {
   git checkout --track origin/$args
 }
 
+function codes {
+  code .
+  npm run serve
+}
+
 cd .\Desktop\
