@@ -59,13 +59,9 @@
   "autoprefixer.grid": "autoplace",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.tabWidth": 2,
-  "prettier.arrowParens": "avoid",
-  "prettier.useTabs": true,
   "prettier.disableLanguages": [],
-  "prettier.requireConfig": true,
   "vetur.validation.template": false,
   "peacock.favoriteColors": [
     {
@@ -156,10 +152,11 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "files.associations": {
+    "*.vue": "vue",
     "**/templates/*.html": "django-html",
     "**/templates/*.vue": "vue",
     "**/templates/*": "django-txt",
-    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements",
   },
   "emmet.includeLanguages": {
     "django-html": "html"
@@ -169,4 +166,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.autofetch": true,
+  "git.confirmSync": false,
+  "editor.formatOnSave": true,
 }
