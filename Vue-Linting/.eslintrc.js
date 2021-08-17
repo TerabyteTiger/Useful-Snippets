@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   env: {
-    node: true
+    node: true,
   },
   extends: ["plugin:vue/essential", "@vue/prettier"],
   rules: {
@@ -15,15 +15,16 @@ module.exports = {
         : "off",
     "newline-per-chained-call": 0,
     "no-unused-vars": [
-      "error",
+      "warn",
       {
         vars: "all",
         args: "none",
-        ignoreRestSiblings: false
-      }
-    ]
+        ignoreRestSiblings: false,
+      },
+    ],
+    "linebreak-style": "off",
   },
   parserOptions: {
-    parser: "babel-eslint"
-  }
+    parser: "babel-eslint",
+  },
 };
