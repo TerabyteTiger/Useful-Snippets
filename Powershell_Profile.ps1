@@ -2,13 +2,7 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module PoShFuck
 Import-Module PSColor
-Set-Theme Robbyrussell
-
-# Change Color of Commands to Magenta (-b in git checkout -b)
-Set-PSReadLineOption -TokenKind Parameter -ForegroundColor Magenta
-
-# Change color of Operators to Red (Easier to read)
-Set-PSReadLineOption -TokenKind Operator -ForegroundColor Red
+Set-PoshPrompt -Theme M365Princess
 
 # Change file colors to not be hard to read
 $global:PSColor.File.Hidden.Color = 'Green'
