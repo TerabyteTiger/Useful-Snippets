@@ -35,4 +35,13 @@ function codes {
   npm run serve
 }
 
+function catchup {
+  git merge master
+}
+
+function ketchup{
+  git merge master
+}
+
+
 cd .\Desktop\
