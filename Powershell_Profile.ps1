@@ -36,11 +36,11 @@ function codes {
 }
 
 function catchup {
-  git merge master
+  git merge main
 }
 
 function ketchup{
-  git merge master
+  git merge main
 }
 
 
