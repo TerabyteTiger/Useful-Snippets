@@ -1,0 +1,32 @@
+{
+  "Quick new Vue File": {
+    "prefix": ["vue3", "v3"],
+    "body": "<template>\n\t<div>$0</div>\n</template>\n\n<script setup>\n</script>",
+    "description": "TVB Vue Quick Create Plain"
+  },
+  "Template": {
+    "prefix": ["template"],
+    "body": "<template>\n\t<div>$0</div>\n</template>",
+    "description": "TVB Vue Template Tag"
+  },
+  "Script setup": {
+    "prefix": ["setup", "script"],
+    "body": "<script setup>\n$0\n</script>",
+    "description": "TVB Vue Script Setup tag"
+  },
+  "Style Tag": {
+    "prefix": ["style"],
+    "body": "<style>\n$0\n</style>",
+    "description": "TVB Vue Style Tag"
+  },
+  "Style Scoped Tag": {
+    "prefix": ["scoped"],
+    "body": "<style scoped>\n$0\n</style>",
+    "description": "TVB Vue Style Scoped Tag"
+  },
+  "Quick Table": {
+    "prefix": ["ttable"],
+    "body": "<table><thead><tr><th>Header</th></tr><tbody><tr><td>$0</td></tr></tbody></table>",
+    "description": "TVB Table Setup"
+  }
+}
